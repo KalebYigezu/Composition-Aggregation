@@ -38,7 +38,6 @@ class EmployeeOne:
     def __init__(self, name, age, sal):
         self.name = name
         self.age = age
-
         self.agg_salary = sal  # Aggregation
 
     def total_sal(self):
