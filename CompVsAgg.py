@@ -11,7 +11,6 @@ class EmployeeOne:
     def __init__(self, name, age, pay, bonus):
         self.name = name
         self.age = age
-
         self.obj_salary = Salary(pay, bonus)  # composition 
 
     def total_sal(self):
